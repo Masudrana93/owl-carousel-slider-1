@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+
+}
+
+body{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.wrapper{
+    width: 100%;
+
+}
+
+.wrapper .carousel {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 30px;
+
+}
+
+.carousel .card{
+    /* background: red; */
+    line-height: 250px;
+    text-align: center;
+    color: #fff;
+    font-size: 90px;
+    font-weight: 600;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rbga (0 0 0 0.2);
+}
+
+.carousel .card-1{
+    background: red;
+}
+
+.carousel .card-2{
+    background: green;
+}
+
+.carousel .card-3{
+    background: yellow;
+}
+
+.carousel .card-4{
+    background: blue;
+}
+
+.carousel .card-5{
+    background: pink;
+}
+
+.owl-dots{
+    text-align: center;
+    margin-top: 40px;
+}
+.owl-dot{
+    height: 15px;
+    width: 45px;
+    border-radius: 25px;
+    cursor: pointer;
+    outline: none;
+    margin: 0 5px;
+    border : 2px solid #0072bc !important;
+    transition: all 0.3s ease;
+    
+
+}
+.owl-dot:hover{ 
+    background: #0072bc !important;
+}
+
+.owl-dot:hover,
+.owl-dot.active{
+    background: #0072bc !important;
+
+}
+
+
+
